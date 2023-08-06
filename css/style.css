@@ -1,0 +1,41 @@
+h1 {
+    background-color: #ab9b96;
+    font-style: oblique;
+    text-align: right;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+p {
+font-size: x-large;
+}
+
+main {
+    background-color: #f0e7d8;
+
+}
+
+footer {
+    background-color: #ab9b96;
+    text-align: center;
+}
+
+section {
+    background-color: #ba6e6e;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f0e7d8;
+}
