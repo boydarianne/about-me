@@ -1,22 +1,48 @@
 h1 {
     background-color: #ab9b96;
     font-style: oblique;
-    text-align: right;
-    color: black;
+    text-align: center;
+    color: rgb(226, 225, 223);
 }
 
 img {
     border-radius: 50%;
-    padding-left: 40%;
-    padding-right: 40%;
+    float: left;
 }
+ .section-1 {
+text-align: center;
+padding-top: 15%;
+padding-bottom: 15%;
+background-color: #ab9b96;
+color: rgb(226, 225, 223);
+
+ }
+
+ .section-2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+ }
+
+ .section-2 img {
+    float: right;
+width: 450px;
+border-radius: 100%;
+ }
+
+ .section-3 {
+    padding-bottom: 5%;
+ }
+
+ .section-4 {
+    padding-bottom: 5%;
+ }
 p {
 font-size: x-large;
 }
 
 main {
     background-color: #f0e7d8;
-
 }
 
 footer {
@@ -25,17 +51,12 @@ footer {
 }
 
 section {
-    background-color: #ba6e6e;
+    text-align: center;
+    padding-left: 15%;
 }
 
 body {
     height: 100%;
-}
-
-html {
-    height: 100%;
-}
-
-body {
+    margin: 0;
     background-color: #f0e7d8;
 }
