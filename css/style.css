@@ -15,12 +15,13 @@ padding-top: 15%;
 padding-bottom: 15%;
 background-color: #ab9b96;
 color: rgb(226, 225, 223);
-
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
  .section-2 {
     padding-top: 5%;
     padding-bottom: 5%;
+
  }
 
  .section-2 img {
@@ -63,3 +64,4 @@ body {
     margin: 0;
     background-color: #f0e7d8;
 }
+
