@@ -1,17 +1,20 @@
 "use strict";
-
 let userScore=0;
 
-let hello = prompt("Hello, what should I call you?");
-
-alert(
-  "Hi" +
+function username(){
+  let hello = prompt("Hello, what should I call you?");
+  
+  alert(
+    "Hi" +
     ", " +
     hello +
     "! " +
     "welcome to my world. Let's play a guessing game!"
-);
+    );
+}
 
+username();
+    
 let mySon = prompt("Do I have a daughter?");
 mySon = mySon.toUpperCase();
 
