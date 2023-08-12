@@ -14,6 +14,8 @@ function username(){
 }
 
 username();
+
+function family(){
     
 let mySon = prompt("Do I have a daughter?");
 mySon = mySon.toUpperCase();
@@ -26,27 +28,55 @@ if (mySon === "N" || mySon === "NO") {
   alert("Incorrect! I do not have a daughter. I have a son.");
 }
 
+}
+
+//calling the function family that was blocked out above
+
+family();
+
+//prompt asking user if the developer ari likes art
+
+function art(){
+
 let ariArt = prompt("Does Ari like art?");
 ariArt = ariArt.toUpperCase(); // yes -->>> YES
 
 if (ariArt === "Y" || ariArt === "YES") {
   // console.log("ariArt: ", ariArt);
-  alert("Yes! I am an amazing artist.");
-} else {
+  alert("Yes! I am an amazing artist."); 
+  } 
+else {
   // console.log("ariArt: ", ariArt);
   alert("Wrong! I am in fact an artist");
+  }
 }
 
+//calling the art function
+
+art();
+
+function home(){
+
 let homeTown = prompt("Am I from New Orleans?");
-mySon = mySon.toUpperCase();
+homeTown = homeTown.toUpperCase();
 
 if (homeTown === "Y" || "YES") {
   //console.log("homeTown:", homeTown);
   alert("Yes! From the land of crawfish!");
-} else {
+}
+ else {
   //console.log("homeTown:", homeTown);
   alert("Wrong! She is from New Orleans");
+  }
+
 }
+
+//calling home function
+
+home();
+
+function coding(){
+
 
 let enjoycode = prompt("Am I enjoying coding?");
 enjoycode = enjoycode.toUpperCase;
@@ -54,10 +84,20 @@ enjoycode = enjoycode.toUpperCase;
 if (enjoycode === "Y" || "YES") {
   //console.log("enjoycode:", enjoycode);
   alert("HTML YES I AM! although this part is a little challenge :)!");
-} else {
+}
+ else {
   //console.log("enjoycode:", enjoycode);
   alert("Unfortunately you're wrong, she is enjoying it very much!");
+  }
+
 }
+
+console.log("Code made it here");
+//calling the coding function
+
+coding();
+
+function school(){
 
 let mySchool = prompt("Did I graduate from Jackson State?");
 mySchool = mySchool.toUpperCase;
@@ -65,15 +105,26 @@ mySchool = mySchool.toUpperCase;
 if (mySchool === "Y" || "YES") {
   //console.log("mySchool: ", mySchool);
   alert("Thee I love!");
-} else {
+  userScore++;
+} 
+else {
   //console.log("mySchool: ", mySchool);
   alert(":(");
+  userScore--;
+  }
+
 }
 
+//calling school function
 
+school();
 
-let correctAnswer = 10;
 let userGuess;
+let correctAnswer = 10;
+function guessingGame(){
+
+
+
 
 while (correctAnswer !== userGuess) {
   userGuess = prompt("How old is my dog? Guess a number between 1 and 10");
@@ -88,6 +139,13 @@ while (correctAnswer !== userGuess) {
     userScore++;
   }
 }
+
+}
+
+
+guessingGame();
+
+console.log("code reached guessing game");
 
 let motiArray = [
   "son",
