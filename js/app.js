@@ -83,7 +83,7 @@ enjoycode = enjoycode.toUpperCase;
 
 if (enjoycode === "Y" || "YES") {
   //console.log("enjoycode:", enjoycode);
-  alert("HTML YES I AM! although this part is a little challenge :)!");
+  alert("HTML YES I AM! although this part is a little challenging :)!");
 }
  else {
   //console.log("enjoycode:", enjoycode);

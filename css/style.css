@@ -2,7 +2,7 @@ h1 {
     background-color: #ab9b96;
     font-style: oblique;
     text-align: left;
-    color: rgb(226, 225, 223);
+    color: rgb(50, 59, 88);
 }
 
 #githublink {
@@ -13,30 +13,35 @@ h1 {
     font-style: italic;
 }
 
+
 img {
     border-radius: 50%;
     float: left;
 }
 
- .section-1 {
+.section-1 {
 text-align: center;
-padding-top: 15%;
-padding-bottom: 15%;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+padding-right: 15%;
 background-color: #ab9b96;
-color: rgb(226, 225, 223);
+color: floralwhite;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
 
 .section-2 {
+    border-radius: 25px;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     border-style: solid;
+    background-color: floralwhite;
     border-color: #ab9b96;
-    margin-top: 40px;
+    margin-top: 200px;
     margin-left: 35px;
     margin-right: 35px;
+    box-shadow: rgba(50, 59, 88, 0.4) 0px 5px, rgba(50, 59, 88, 0.3) 0px 10px, rgba(50, 59, 88, 0.2) 0px 15px, rgba(50, 59, 88, 0.1) 0px 20px, rgba(50, 59, 88, 0.05) 0px 25px;
 
 }
 
@@ -47,16 +52,19 @@ height: 250px;
 }
 
 .section-3 {
-    padding-bottom: 5%;
+    border-radius: 25px;
+    padding-bottom: 10%;
     padding-top: 5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
     text-align: right;
     border-style: solid;
+    background-color: floralwhite;
     border-color: #ab9b96;
     margin-top: 40px;
     margin-left: 35px;
     margin-right: 35px;
+    box-shadow: rgba(50, 59, 88, 0.4) 0px 5px, rgba(50, 59, 88, 0.3) 0px 10px, rgba(50, 59, 88, 0.2) 0px 15px, rgba(50, 59, 88, 0.1) 0px 20px, rgba(50, 59, 88, 0.05) 0px 25px;
 }
 
  .section-3 img {
@@ -67,15 +75,18 @@ height: 250px;
  }
 
  .section-4 {
+    border-radius: 25px;
     padding-bottom: 5%;
     padding-top: 5%;
     padding-left: 2.5%;
     text-align: left;
     border-style: solid;
+    background-color:floralwhite;
     border-color: #ab9b96;
     margin-top: 40px;
     margin-left: 35px;
     margin-right: 35px;
+    box-shadow: rgba(50, 59, 88, 0.4) 0px 5px, rgba(50, 59, 88, 0.3) 0px 10px, rgba(50, 59, 88, 0.2) 0px 15px, rgba(50, 59, 88, 0.1) 0px 20px, rgba(50, 59, 88, 0.05) 0px 25px;
  }
 
  .section-4 img {
@@ -117,6 +128,18 @@ text-align: right;
 }
 
 #MotivationID {
-    padding-left: 45%;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: larger;
+    border-style: solid;
+    background-color: floralwhite;
+    border-radius: 25px;
+    border-color: #ab9b96;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-shadow: rgba(50, 59, 88, 0.4) 0px 5px, rgba(50, 59, 88, 0.3) 0px 10px, rgba(50, 59, 88, 0.2) 0px 15px, rgba(50, 59, 88, 0.1) 0px 20px, rgba(50, 59, 88, 0.05) 0px 25px;
 }
+
