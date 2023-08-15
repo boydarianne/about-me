@@ -119,11 +119,10 @@ else {
 
 school();
 
+
 let userGuess;
 let correctAnswer = 10;
 function guessingGame(){
-
-
 
 
 while (correctAnswer !== userGuess) {
@@ -146,6 +145,9 @@ while (correctAnswer !== userGuess) {
 guessingGame();
 
 console.log("code reached guessing game");
+
+
+function motivationGuess (){
 
 let motiArray = [
   "son",
@@ -183,4 +185,6 @@ if (!attempts) {
 {
   alert(" Your score is " + userScore);
 }
+}
 
+motivationGuess();
