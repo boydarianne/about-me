@@ -23,9 +23,11 @@ mySon = mySon.toUpperCase();
 if (mySon === "N" || mySon === "NO") {
   //console.log("mySon: ", mySon);
   alert("You're right! I have a son!");
+  userScore++;
 } else {
   //console.log("mySon: ", mySon)
   alert("Incorrect! I do not have a daughter. I have a son.");
+  userScore--;
 }
 
 }
@@ -38,16 +40,18 @@ family();
 
 function art(){
 
-let ariArt = prompt("Does Ari like art?");
+let ariArt = prompt("Do I like art?");
 ariArt = ariArt.toUpperCase(); // yes -->>> YES
 
 if (ariArt === "Y" || ariArt === "YES") {
   // console.log("ariArt: ", ariArt);
-  alert("Yes! I am an amazing artist."); 
+  alert("Yes! More like love!"); 
+  userScore++;
   } 
 else {
   // console.log("ariArt: ", ariArt);
-  alert("Wrong! I am in fact an artist");
+  alert(":( wrong but it is not the end of the world lol");
+  userScore--;
   }
 }
 
@@ -60,13 +64,15 @@ function home(){
 let homeTown = prompt("Am I from New Orleans?");
 homeTown = homeTown.toUpperCase();
 
-if (homeTown === "Y" || "YES") {
+if (homeTown === "Y" || homeTown === "YES") {
   //console.log("homeTown:", homeTown);
-  alert("Yes! From the land of crawfish!");
+  alert("Yes! From the land of crawfish and mardi gras!");
+  userScore++;
 }
  else {
   //console.log("homeTown:", homeTown);
-  alert("Wrong! She is from New Orleans");
+  alert("Wrong! I am from New Orleans");
+  userScore--;
   }
 
 }
@@ -81,13 +87,15 @@ function coding(){
 let enjoycode = prompt("Am I enjoying coding?");
 enjoycode = enjoycode.toUpperCase;
 
-if (enjoycode === "Y" || "YES") {
+if (enjoycode === "Y" || enjoycode === "YES") {
   //console.log("enjoycode:", enjoycode);
-  alert("HTML YES I AM! although this part is a little challenging :)!");
+  alert("HTML YES I AM! ;)!");
+  userScore++;
 }
  else {
   //console.log("enjoycode:", enjoycode);
-  alert("Unfortunately you're wrong, she is enjoying it very much!");
+  alert("Unfortunately you're wrong, I am enjoying it very much!");
+  userScore--;
   }
 
 }
@@ -102,7 +110,7 @@ function school(){
 let mySchool = prompt("Did I graduate from Jackson State?");
 mySchool = mySchool.toUpperCase;
 
-if (mySchool === "Y" || "YES") {
+if (mySchool === "Y" || mySchool === "YES") {
   //console.log("mySchool: ", mySchool);
   alert("Thee I love!");
   userScore++;
@@ -144,7 +152,7 @@ while (correctAnswer !== userGuess) {
 
 guessingGame();
 
-console.log("code reached guessing game");
+//console.log("code reached guessing game");
 
 
 function motivationGuess (){
